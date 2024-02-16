@@ -4,6 +4,9 @@
     <projectFile profileName="IIS Express">Api/Api.csproj</projectFile>
     <projectFile profileName="http">Api/Api.csproj</projectFile>
     <projectFile profileName="https">Api/Api.csproj</projectFile>
+    <projectFile profileName="IIS Express">ElasticsearchUI/ElasticsearchUI.csproj</projectFile>
+    <projectFile profileName="http">ElasticsearchUI/ElasticsearchUI.csproj</projectFile>
+    <projectFile profileName="https">ElasticsearchUI/ElasticsearchUI.csproj</projectFile>
     <projectFile profileName="IIS Express">WebApplication1/WebApplication1.csproj</projectFile>
     <projectFile profileName="http">WebApplication1/WebApplication1.csproj</projectFile>
     <projectFile profileName="https">WebApplication1/WebApplication1.csproj</projectFile>
@@ -92,6 +95,51 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="ElasticsearchUI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ElasticsearchUI/ElasticsearchUI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchUI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ElasticsearchUI/ElasticsearchUI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchUI: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ElasticsearchUI/ElasticsearchUI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebApplication1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ElasticsearchApi/ElasticsearchApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -148,7 +196,7 @@
       <updated>1706928939461</updated>
       <workItem from="1706928942267" duration="5636000" />
       <workItem from="1707047882073" duration="4267000" />
-      <workItem from="1707128689405" duration="7303000" />
+      <workItem from="1707128689405" duration="8075000" />
     </task>
     <servers />
   </component>

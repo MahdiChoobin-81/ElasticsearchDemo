@@ -1,0 +1,14 @@
+C:\Users\Sepidar\Desktop\Elasticsearch\api\ElasticsearchApi.exe
+C:\Users\Sepidar\Desktop\Elasticsearch\api\appsettings.Development.json
+C:\Users\Sepidar\Desktop\Elasticsearch\api\appsettings.json
+C:\Users\Sepidar\Desktop\Elasticsearch\api\ElasticsearchApi.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\ElasticsearchApi.deps.json
+C:\Users\Sepidar\Desktop\Elasticsearch\api\ElasticsearchApi.runtimeconfig.json
+C:\Users\Sepidar\Desktop\Elasticsearch\api\ElasticsearchApi.pdb
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Elasticsearch.Net.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Microsoft.OpenApi.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Nest.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Sepidar\Desktop\Elasticsearch\api\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "daPmTYjZOQp6AUlL3x8PR5pmYHVoKKnoJqURXGgxqwE=",
+  "Source": "ElasticsearchApi",
+  "BasePath": "_content/ElasticsearchApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\ElasticsearchApi\\ElasticsearchApi.csproj",
+      "projectName": "ElasticsearchApi",
+      "projectPath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\ElasticsearchApi\\ElasticsearchApi.csproj",
       "packagesPath": "C:\\Users\\Sepidar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\ElasticsearchApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sepidar\\AppData\\Roaming\\NuGet\\NuGet.Config"

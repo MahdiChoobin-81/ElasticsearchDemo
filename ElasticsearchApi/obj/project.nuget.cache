@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kEdpOrOcBb+QcJ7CF0FizvJH2CNvPRvHCc9I5cCH3FDgZbaAvGj24gpAmJUrRvrAq2jyCi7Pncndonw4vWEjQg==",
+  "dgSpecHash": "KtOEVg8Zwxtc3Br3SI4g9mXCXblttSgXPB2msBHuyQsab5WDFvu8rH3WfD4M/mjluF/Yuy/r8ljA9DmmDzN36w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\Sepidar\\RiderProjects\\ElasticseachWebApi\\ElasticsearchApi\\ElasticsearchApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sepidar\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\Sepidar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
