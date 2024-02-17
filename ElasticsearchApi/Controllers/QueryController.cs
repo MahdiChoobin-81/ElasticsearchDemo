@@ -1,4 +1,5 @@
 using ElasticsearchApi.DTO;
+using ElasticsearchApi.DTO.Query;
 using ElasticsearchApi.Models;
 using ElasticsearchApi.Services;
 using ElasticsearchApi.Services.CRUD;
@@ -21,10 +22,10 @@ public class QueryController : ControllerBase
     }
 
     [HttpGet]
-    [Route("match/{name}")]
-    public async Task<IEnumerable<Order>> Match(string name)
+    [Route("match/product-name/{query}")]
+    public async Task<IEnumerable<Order>> Match(string query)
     {
-        var result = await _elasticsearchQueryService.MatchQuery(name);
+        var result = await _elasticsearchQueryService.MatchQuery(query);
         return result;
     }
 
@@ -42,30 +43,20 @@ public class QueryController : ControllerBase
         var result = await _elasticsearchQueryService.MultiMatchAndPhraseQuery(query);
         return result;
     }
-
-    [HttpGet]
+    
+    [HttpPost]
     [Route("bool-query-multi-match")]
-    public async Task<IEnumerable<Order>> BoolQueryMultiMatch([FromQuery] BoolQueryMultiMatchDto query)
+    public async Task<IEnumerable<Order>> BoolQueryMultiMatch([FromBody] BoolQueryMultiMatchDto query)
     {
-        var result = await _elasticsearchQueryService.BoolQueryMultiMatch(
-            query.Must,
-            query.MustNot,
-            query.Should,
-            query.StartDate,
-            query.EndDate);
+        var result = await _elasticsearchQueryService.BoolQueryMultiMatch(query);
         return result;
     }
     
-    [HttpGet]
-    [Route("bool-query-multi-match-quantity")]
-    public async Task<IEnumerable<Order>> BoolQueryMultiMatchQuantity([FromQuery] BoolQueryMultiMatchQuantityDto query)
+    [HttpPost]
+    [Route("bool-query-multi-match-sales")]
+    public async Task<IEnumerable<Order>> BoolQueryMultiMatchQuantity([FromBody] BoolQueryMultiMatchSalesDto query)
     {
-        var result = await _elasticsearchQueryService.BoolQueryMultiMatchAndQuantity(
-            query.Must,
-            query.MustNot,
-            query.Should,
-            query.StartDate,
-            query.EndDate);
+        var result = await _elasticsearchQueryService.BoolQueryMultiMatchAndSales(query);
         return result;
     }
 }

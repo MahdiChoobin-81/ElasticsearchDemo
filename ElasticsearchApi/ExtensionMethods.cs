@@ -19,7 +19,6 @@ public static class ExtensionMethods
             product_name = orderDto.product_name,
             sales = orderDto.sales,
             ship_mode = orderDto.ship_mode,
-            // order_date = orderDto.order_date,
             RawOrderDate = orderDto.order_date,
             customer_name = orderDto.customer_name
         };

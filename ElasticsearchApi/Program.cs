@@ -22,8 +22,8 @@ var client = new ElasticClient(settings);
 
 builder.Services.AddSingleton(client);
 builder.Services.AddScoped<IElasticsearchCrudService, ElasticsearchCrudService>();
-// builder.Services.AddScoped<IElasticsearchQueryService<Order>, OrderQueryService>();
-// builder.Services.AddScoped<IElasticsearchAggregationService, OrderAggregationService>();
+builder.Services.AddScoped<IElasticsearchQueryService<Order>, OrderQueryService>();
+builder.Services.AddScoped<IElasticsearchAggregationService, OrderAggregationService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

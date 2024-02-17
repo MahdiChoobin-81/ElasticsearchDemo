@@ -40,18 +40,10 @@ public class Order
     [PropertyName("customer_name")]
     public string customer_name { get; set; }
     
-    // [Date(Format = "dd/MM/yyyy"), PropertyName("Order Date")] => it does not work with my data.
-    
-    // [PropertyName("order_date")]
-    // DateTime date = DateTime.Parse("09/25/2011", new CultureInfo("en-GB")); // returns 09/25/2011
-    // string d2 = date.ToString("dd/MM/yyyy");
     public DateOnly RawOrderDate
     {
         set { order_date = value.ToString("dd/MM/yyyy"); }
     }
-    // [Date(Format = "dd/MM/yyyy")]
-    // [Date(Format = "M/d/yyyy")]
-    // [PropertyName("order_date")]
     public string order_date { get; set; } 
 
     
