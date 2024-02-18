@@ -54,9 +54,9 @@ public class QueryController : ControllerBase
     
     [HttpPost]
     [Route("bool-query-multi-match-sales")]
-    public async Task<IEnumerable<Order>> BoolQueryMultiMatchQuantity([FromBody] BoolQueryMultiMatchSalesDto query)
+    public async Task<IEnumerable<Order>> BoolQueryMultiMatchRange([FromBody] BoolQueryMultiMatchSalesDto query)
     {
-        var result = await _elasticsearchQueryService.BoolQueryMultiMatchAndSales(query);
+        var result = await _elasticsearchQueryService.BoolQueryMultiMatchRange(query);
         return result;
     }
 }

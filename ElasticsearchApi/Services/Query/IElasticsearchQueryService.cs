@@ -11,7 +11,7 @@ public interface IElasticsearchQueryService<T>
     Task<IEnumerable<T>> MultiMatchAndPhraseQuery(string query);
     Task<IEnumerable<T>> BoolQueryMultiMatch(BoolQueryMultiMatchDto query);
     
-    Task<IEnumerable<T>> BoolQueryMultiMatchAndSales(BoolQueryMultiMatchSalesDto query);
+    Task<IEnumerable<T>> BoolQueryMultiMatchRange(BoolQueryMultiMatchSalesDto query);
     
     
 }

@@ -83,7 +83,7 @@ public class OrderQueryService : IElasticsearchQueryService<Order>
          return response.Documents;
      }
 
-     public async Task<IEnumerable<Order>> BoolQueryMultiMatchAndSales(BoolQueryMultiMatchSalesDto query)
+     public async Task<IEnumerable<Order>> BoolQueryMultiMatchRange(BoolQueryMultiMatchSalesDto query)
      {
          var response = await _elasticClient.SearchAsync<Order>(s => s
              .Query(q => q
