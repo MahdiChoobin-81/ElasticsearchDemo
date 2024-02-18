@@ -1,3 +1,4 @@
+[ElasticsearchDocumentation.zip](https://github.com/MahdiChoobin-81/ElasticsearchDemo/files/14321878/ElasticsearchDocumentation.zip)
 # Technologies used in the Project
   **- Elasticsearch : NEST Library and Elasticsearch Cloud.**
   
@@ -24,8 +25,7 @@
 
 
    ### QueryController Methods :
-  **- Match :** **match** query o[ElasticsearchDocumentation.zip](https://github.com/MahdiChoobin-81/ElasticsearchDemo/files/14321878/ElasticsearchDocumentation.zip)
-n _product_name_ field.
+  **- Match :** **match** query on _product_name_ field.
   
   **- MultiMatch :**  **multi_match** query on _product_name_ and _customer_name_ fields.
 
