@@ -1,5 +1,3 @@
-[API Documentation Files](https://github.com/MahdiChoobin-81/CleanArchitecture_ASP/blob/master/API_Document_HTML2.zip)
-
 # Technologies used in the Project
   **- Elasticsearch : NEST Library and Elasticsearch Cloud.**
   
@@ -13,7 +11,7 @@
   **- Aggregation and Query searches.**
 
   # Controllers :
-  ### AggregationController :
+  ### AggregationController Methods :
   **- AnnualSales :**  Made from **DateHistogram_CalendarInterval**(**Bucket Agg**) and **Sum(Metric Agg)** Aggregarions.
   
   **- CustomMonthlySalesRange :**  It shows the monthly sales in the specified range. Made from a **Query(DateRange)** and two **Aggregations(DateHistogram and Sum)**.
@@ -25,8 +23,9 @@
   **- TermAggregation :**  It will run **Term** aggregation to specified **Field**(_type of field must be keyword_).
 
 
-   ### QueryController :
-  **- Match :** **match** query on _product_name_ field.
+   ### QueryController Methods :
+  **- Match :** **match** query o[ElasticsearchDocumentation.zip](https://github.com/MahdiChoobin-81/ElasticsearchDemo/files/14321878/ElasticsearchDocumentation.zip)
+n _product_name_ field.
   
   **- MultiMatch :**  **multi_match** query on _product_name_ and _customer_name_ fields.
 
@@ -34,10 +33,10 @@
   
   **- BoolQueryMultiMatch :** **bool** query with Must(multi_match), MustNot(multi_match), Should(multi_match) and Filter(date_range).
   
-  **- BoolQueryMultiMatchQuantity :** **bool** query with Must(range query on _sales_ field), MustNot(multi_match), Should(multi_match) and Filter(date_range).
+  **- BoolQueryMultiMatchRange :** **bool** query with Must(range query on _sales_ field), MustNot(multi_match), Should(multi_match) and Filter(date_range).
 
 
-   ### CrudController :
+   ### CrudController Methods :
    **- GetAllDocuments**
    
    **- CreateOrder**
